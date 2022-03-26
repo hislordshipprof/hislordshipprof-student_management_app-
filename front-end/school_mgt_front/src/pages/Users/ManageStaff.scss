@@ -1,0 +1,35 @@
+.managelist {
+    display: flex;
+    width: 100%;
+    
+
+    .managelistContainer {
+        flex: 5;
+        h2{
+            display: flex;
+            align-items: center;
+            padding: 18px;
+            margin: 5px;
+            font-weight: bold;
+            font-size: 24px;
+            color: rgb(101, 162, 233);
+            // justify-content: center;
+        }
+        .manageContainer{
+             -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+             box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+             border-radius:10px;
+             padding: 20px;
+             margin: 20px;
+
+             .listtitle{
+                 font-weight: 500;
+                 color: gray;
+                 margin-bottom: 14px;
+             }
+        }
+    }
+
+
+
+}

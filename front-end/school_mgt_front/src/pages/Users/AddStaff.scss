@@ -1,0 +1,68 @@
+.stafflist {
+    display: flex;
+    width: 100%;
+
+    .stafflistContainer {
+        flex: 5;
+
+        h2 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 10px;
+            margin: 10px;
+            font-size: 23px;
+            font-weight: bold;
+            color: rgb(128, 103, 238)
+        }
+
+        .Formfield {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 4px 15px 15px rgba(225, 240, 252, 0.932);
+            -webkit-box-shadow: 2px 4px 15px 15px rgba(247, 243, 242, 0.904);
+            border-radius: 20px;
+
+            form {
+
+                display: block;
+                width: 100%;
+                padding: 15px;
+                margin: 10px 0px;
+
+                //   background-color: red;
+
+                h1 {
+
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: rgba(0, 0, 255, 0.801);
+                    height: 30px;
+                    padding: 10px;
+                    width: 95%;
+                    margin-top: 10px;
+                    border-radius: 20px;
+
+                }
+
+                button {
+                    width: 97%;
+                    height: 50px;
+                    padding: 10px;
+                    border: none;
+                    background-color: rgba(0, 0, 255, 0.637);
+                    color: whitesmoke;
+                    border-radius: 15px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    cursor: pointer;
+                    margin-top: 15px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

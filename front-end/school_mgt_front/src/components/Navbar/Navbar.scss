@@ -1,0 +1,60 @@
+.Navbar{
+    height: 59px;
+    border-bottom: 0.5px solid rgba(134, 196, 247, 0.616);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    .wrapper{
+        width: 100%;
+        display: flex;
+        padding: 17px;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .search{
+            display: flex;
+            align-items: center;
+            
+            padding: 3px;
+            margin-bottom: 8px;
+
+            h3{
+                  font-size: 18px;
+                  font-weight: bold;
+                  color: rgba(6, 124, 184, 0.863);       
+            }
+            
+        }
+        .items{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            margin-bottom: 8px;
+
+            .item{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                 font-size: 18px;
+                 font-weight: bold;
+
+                 .icon {
+                     font-size: 20px;
+                     color: #8362f8e1;
+                     margin: 4px;
+                 }
+
+                 p{color: rgba(6, 124, 184, 0.863);}
+
+                
+            }
+             
+            
+        }
+
+    }
+}

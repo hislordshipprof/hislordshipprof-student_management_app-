@@ -1,0 +1,66 @@
+.widget{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius:10px ;
+    height: 105px;
+
+    .left,.right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+               font-size: 17px;
+               font-weight: bold;
+               color: #999;
+        }
+        .counter{
+               font-size: 25px;
+               font-weight: 400;
+               
+        }
+        .link{
+            display: flex;
+            width: max-content;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            cursor: pointer;
+            .icons{
+                border-radius: 50px;
+                background-color: rgba(247, 225, 225, 0.377);
+                font-size: 15px;
+                margin: 3px;
+            }
+               
+        }
+        .piechart{
+            display: flex;
+            align-items: center;
+
+            .icon {
+                font-size: 42px;
+                color: #8362f8e1;
+                margin-top: 7px;
+                padding: 2px;
+
+                &:hover {
+                    cursor: pointer;
+
+                }
+
+            }
+            
+        }
+        .personicon {
+            font-size: 20px;
+            color: rgba(129, 127, 127, 0.836);
+            margin: 14px;
+            margin-bottom: 3px;
+            padding: 2px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.forminput{
+    display: flex;
+    flex-direction: column;
+    
+    input{
+        
+        display: block;
+        width: 94%;
+        height: calc(0.35rem + 1px);
+        font-size: 1rem;
+        font-weight: bold;
+        line-height:1.5;
+        color: rgba(99, 96, 96, 0.884);
+        padding: 15px;
+        margin: 10px 0px;
+        border-radius: 10px;
+        border: 1px solid gray;
+    
+
+    }
+
+      input:invalid[focused="true"]~span {
+          display: block;
+      }
+    label{
+        font-size: 14px;
+        color: rgba(22, 21, 21, 0.822);
+    }
+    span{
+        font-size: 12px;
+        padding: 3px;
+        color: rgb(248, 55, 55);
+        display: none;
+    }
+
+   
+}
